@@ -77,12 +77,20 @@ main {
 button {
     width: 300px;
     height: 40px;
-    background-color: black;
-    color: #f3f3f3;
+    background-color: #fff;
+    color: #000;
     font-size: 17px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+button:houver {
+    transition: .5s;
+    color: #000;
+    border: 2px solid #000;
+    background-color: #fff;
+    box-shadow: 0 0 20px #000;
 }
 
 #text_area {
